@@ -5,9 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BindingComponent } from './flavors/binding/binding.component';
 import { FormsModule } from '@angular/forms';
+import { SplitTwoWayBindingComponent } from './flavors/split-two-way-binding/split-two-way-binding.component';
 
 @NgModule({
-  declarations: [AppComponent, BindingComponent],
+  declarations: [AppComponent, BindingComponent, SplitTwoWayBindingComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
