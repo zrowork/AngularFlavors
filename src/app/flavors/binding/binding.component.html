@@ -1,0 +1,11 @@
+<h1>{{ pageTitle }}</h1>
+
+<h2>Clicked {{ count }} times</h2>
+<div>
+  <button (click)="incrementCount()">Increment</button>
+</div>
+
+<div>
+  <input type="text" [(ngModel)]="name" />
+  <p>Welcome {{ name }}</p>
+</div>
