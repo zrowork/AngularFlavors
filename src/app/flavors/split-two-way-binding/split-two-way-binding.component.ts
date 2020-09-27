@@ -8,6 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class SplitTwoWayBindingComponent implements OnInit {
   userName: string;
 
+  sayHello(updatedName) {
+    this.userName = updatedName;
+    if (updatedName.length >= 5) {
+      alert(`Hello ${this.userName}`);
+    }
+  }
+
   constructor() {}
 
   ngOnInit(): void {}
