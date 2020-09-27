@@ -1,1 +1,4 @@
-<p>split-two-way-binding works!</p>
+<div>
+  <input type="text" [ngModel]="userName" (ngModelChange)="sayHello($event)" />
+  <p>Welcome {{ userName }}</p>
+</div>
