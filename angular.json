@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularFlavors"
+    }
+  },
+  "defaultProject": "AngularFlavors",
+  "cli": {
+    "analytics": false
+  }
 }
