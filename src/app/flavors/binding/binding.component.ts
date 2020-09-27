@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BindingComponent implements OnInit {
   pageTitle = 'Angular Biding';
   count = 0;
+  name: string;
 
   incrementCount() {
     this.count += 1;
