@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { BindingComponent } from './flavors/binding/binding.component';
 import { FormsModule } from '@angular/forms';
 import { SplitTwoWayBindingComponent } from './flavors/split-two-way-binding/split-two-way-binding.component';
+import { GettersAndSettersComponent } from './flavors/getters-and-setters/getters-and-setters.component';
 
 @NgModule({
-  declarations: [AppComponent, BindingComponent, SplitTwoWayBindingComponent],
+  declarations: [AppComponent, BindingComponent, SplitTwoWayBindingComponent, GettersAndSettersComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
