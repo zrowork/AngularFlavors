@@ -1,0 +1,9 @@
+<div>
+  <input
+    #userRef
+    type="text"
+    [ngModel]="userName"
+    (ngModelChange)="sayHello($event)"
+  />
+  <p>Welcome {{ userName }}</p>
+</div>
