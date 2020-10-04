@@ -10,6 +10,8 @@ import { ChildComponent } from './flavors/component-interaction/parent-child-int
 import { ParentComponent } from './flavors/component-interaction/parent-child-interaction/parent/parent.component';
 import { SplitTwoWayBindingComponent } from './flavors/component-interaction/split-two-way-binding/split-two-way-binding.component';
 import { ViewChildComponent } from './flavors/component-interaction/view-child/view-child.component';
+import { ViewChildInDepthComponent } from './flavors/view-child-in-depth/view-child-in-depth.component';
+import { DateViewerComponent } from './flavors/view-child-in-depth/date-viewer/date-viewer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { ViewChildComponent } from './flavors/component-interaction/view-child/v
     ViewChildComponent,
     ParentComponent,
     ChildComponent,
+    ViewChildInDepthComponent,
+    DateViewerComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
